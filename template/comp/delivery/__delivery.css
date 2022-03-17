@@ -1,0 +1,302 @@
+.delivery h1 {
+    font-weight: 700;
+}
+
+.delivery .tabs {
+    font-size: 1.25rem;
+}
+
+.delivery .tabs__btn {
+    padding-bottom: 1.5rem;
+    font-weight: 500;
+    line-height: 1.75rem;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.delivery .tabs__btn.is-active {
+    font-weight: 700;
+    opacity: 1;
+    border-bottom: 4px solid var(--color__dark);
+}
+
+.delivery .tabs__btn + .tabs__btn {
+    margin-left: 2rem;
+}
+
+.tabs__block-title {
+    opacity: 0.6;
+}
+
+.delivery .tabs__block-title {
+    font-weight: 400;
+    line-height: 1.875rem;
+}
+
+.tabs__block-icon {
+    display: none;
+}
+
+.delivery__payment-title-wrapper {
+    position: relative;
+}
+
+.delivery__payment-title-wrapper::after {
+    content: "";
+    position: absolute;
+    top: 1.5rem;
+    left: 0;
+    /*z-index: -1;*/
+    height: 0.0625rem;
+    width: 100%;
+    background-color: var(--color__border);
+}
+
+.delivery__payment-title {
+    margin: 0;
+    font-weight: 700;
+    line-height: 3rem;
+    text-align: center;
+}
+
+.delivery__payment-title span {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    background-color: var(--color__white);
+}
+
+.delivery__payment-title span::before,
+.delivery__payment-title span::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 3.5rem;
+    background-color: var(--color__white);
+}
+
+.delivery__payment-title span::before {
+    right: 100%;
+}
+
+.delivery__payment-title span::after {
+    left: 100%;
+}
+
+.delivery__button-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.delivery__button {
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.75rem;
+    border-radius: 4rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+}
+
+.delivery__button-icon {
+    display: inline-block;
+    width: 0.8125rem;
+    height: 0.8125rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 0.8125rem 0.8125rem;
+}
+
+.delivery__button:hover .delivery__button-icon,
+.delivery__button:focus .delivery__button-icon,
+.delivery__button:active .delivery__button-icon {
+    background-image: url("data:image/svg+xml;charset=utf8, %3Csvg width='19' height='19' viewBox='0 0 19 19' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 9.19238H9.19239M18.3848 9.19238H9.19239M9.19239 9.19238L9.19239 -5.1856e-06L9.19239 18.3848' stroke='white' stroke-width='2'/%3E%3C/svg%3E");
+}
+
+
+.delivery-payment {
+    margin-top: 2rem;
+}
+
+.delivery-payment__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.delivery-payment__item {
+    width: calc(25% - 1.5rem);
+    height: auto;
+}
+
+.delivery-payment__card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 2.25rem;
+    text-align: center;
+    color: var(--color__dark);
+    background-color: var(--color__fill-4);
+}
+
+.delivery-payment__icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5.5rem;
+}
+
+.delivery-payment__icon {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.delivery-payment__icon.--post-terminal {
+    width: 3rem;
+    height: 3rem;
+}
+
+.delivery-payment__icon.--wallet {
+    width: 2.875rem;
+    height: 2.5625rem;
+}
+
+.delivery-payment__icon.--bank-card {
+    width: 3.0625rem;
+    height: 2.0625rem;
+}
+
+.delivery-payment__title {
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+    font-weight: 600;
+}
+
+.delivery .tabs__btns-wrapper {
+    margin-bottom: 3.5rem;
+}
+
+.delivery .back-button-wrapper {
+    margin-bottom: 2.5rem;
+}
+
+@media screen and (max-width: 991px) {
+    .delivery .back-button-wrapper {
+        margin-bottom: 0.5rem;
+    }
+
+    .delivery h1 {
+        font-size: 1.5rem;
+        line-height: 3.5rem;
+    }
+
+    .delivery .tabs {
+        font-size: 1rem;
+        line-height: 1.75rem;
+        font-weight: 500;
+    }
+
+    .tabs__blocks {
+        margin-bottom: 2.5rem !important;
+    }
+
+    .tabs__block-item {
+        display: flex;
+    }
+
+    .tabs__block-item:not(:last-child) {
+        margin-bottom: 1.5rem;
+    }
+
+    .tabs__block-icon {
+        display: inline-block;
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-top: 0.1875rem;
+        margin-right: 1.625rem;
+        flex: 0 0 auto;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 1.0625rem 0.8125rem;
+        background-color: var(--color__dark);
+        border-radius: 50%;
+    }
+
+    .delivery .tabs__btns {
+        flex-wrap: nowrap;
+    }
+
+    .delivery .tabs__btns-wrapper {
+        overflow-x: auto;
+        margin-bottom: 1.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .delivery .tabs__btn {
+        padding-bottom: 1.25rem;
+        white-space: nowrap;
+    }
+
+    .delivery .tabs__block-title {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .delivery .tabs__block-title br {
+        display: none;
+    }
+
+    .delivery__button {
+        width: 100%;
+    }
+
+    .delivery__payment-title {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        text-align: left;
+    }
+
+    .delivery-payment {
+        margin-top: 1.5rem;
+    }
+
+    .delivery-payment__list {
+    }
+
+    .delivery-payment__item {
+        width: auto;
+    }
+
+    .delivery-payment__item + .delivery-payment__item {
+        margin-left: 1rem;
+    }
+
+    .delivery-payment__card {
+        min-width: 10.5rem;
+        padding: 1rem;
+    }
+
+    .delivery-payment__icon-wrapper {
+        height: 5rem;
+    }
+
+    .delivery-payment__icon {
+    }
+
+    .delivery-payment__icon.--post-terminal {
+        width: 3.125rem;
+        height: 3.125rem;
+    }
+
+    .delivery-payment__icon.--wallet {
+        width: 3.125rem;
+        height: 2.6875rem;
+    }
+
+    .delivery-payment__title {
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        margin-bottom: 0.5rem;
+    }
+}

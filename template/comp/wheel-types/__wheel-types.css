@@ -1,0 +1,41 @@
+.scope__type a {
+    position: relative;
+    color: var(--color__dark);
+    text-decoration: none;
+}
+
+.scope__type a:focus, .scope__type a:hover {
+    font-weight: 700;
+}
+
+.scope__type a.is-active {
+    font-weight: 700;
+}
+
+.scope__type a::before, .scope__type a::after {
+    opacity: 0;
+    visibility: hidden;
+    content: "";
+    height: 4px;
+    width: 0;
+    background-color: var(--color__dark);
+    position: absolute;
+    left: 50%;
+    bottom: -32px;
+    transition: 0.2s all ease-in;
+}
+
+.scope__type a.is-active::before, .scope__type a.is-active::after {
+    opacity: 1;
+    visibility: visible;
+    width: 50%;
+}
+
+.scope__type a.is-active::before {
+    left: 0;
+}
+.scope__type a.is-active::after {
+    left: 50%;
+}
+
+

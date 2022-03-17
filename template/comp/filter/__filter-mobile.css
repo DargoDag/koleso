@@ -1,0 +1,195 @@
+.filter-mobile {
+    flex: 1 1 auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+    padding-bottom: 5.375rem;
+}
+
+.filter-mobile .filter.--catalog {
+    display: block;
+}
+
+.filter-mobile .filter-item {
+    position: relative;
+}
+
+.filter-mobile .filter-item.col.--2 {
+    max-width: none;
+}
+
+.filter-mobile .filter-item__label {
+    position: relative;
+    z-index: 6;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1;
+    opacity: 1;
+    padding-bottom: 1rem;
+}
+
+.filter-mobile .filter-item__name {
+    display: none;
+}
+
+.filter-mobile .filter-item__count-wrap {
+    position: absolute;
+    left: 0;
+    top: 1.2rem;
+}
+
+.filter-mobile .filter-item + .filter-item {
+    margin-top: 2rem;
+}
+
+.filter-mobile .filter-item__tooltip {
+    position: relative;
+    top: 0;
+    height: 0;
+    overflow: hidden;
+    opacity: 1;
+}
+
+.filter-mobile .filter-item.--open .filter-item__tooltip {
+    height: auto;
+}
+
+.filter-mobile .filter-item:hover .filter-item__tooltip {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.filter-mobile .filter-item__icon-wrap {
+    position: static;
+}
+
+.filter-mobile .filter-item__icon {
+    position: absolute;
+    top: 0.375rem;
+    right: 0;
+}
+
+.filter-mobile .filter-item.--open .filter-item__icon {
+    transform: rotate(180deg);
+}
+
+.filter-mobile .tooltip {
+    background-color: transparent;
+    border-radius: 0;
+    padding: 0;
+    color: var(--color__dark);
+}
+
+.filter-mobile .tooltip__head {
+    display: none;
+}
+
+.filter-mobile .tooltip__accept-btn {
+    display: none;
+}
+
+.filter-mobile .tooltip__list {
+    max-height: none;
+    padding-left: 0;
+    padding-bottom: 0;
+    padding-top: 1.5rem;
+    margin-top: 0 !important;
+}
+
+.filter-mobile .filter-item__tooltip .tooltip__list {
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 0.5rem;
+}
+
+.filter-mobile .tooltip__list .checkbox {
+    margin-top: 0 !important;
+}
+
+.filter-mobile .tooltip__list .checkbox__trigger {
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: var(--color__dark);
+    opacity: 0.16;
+}
+
+.filter-mobile .tooltip__list .checkbox input:checked + * > .checkbox__trigger {
+    opacity: 0.5;
+    background-color: var(--color__dark);
+}
+
+.filter-mobile .tooltip__list .checkbox input:checked + * > .checkbox__label {
+    color: var(--color__dark);
+}
+
+.filter-mobile .filter-items__rangeslide-wrap {
+    order: -1;
+    margin-top: 0;
+    margin-bottom: 2.5rem;
+    max-width: none;
+}
+
+.filter-mobile .center-wrap {
+    position: static;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.filter-mobile .filter-items__btns-wrap {
+    justify-content: space-between;
+    margin-top: 0.75rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    padding-bottom: 0.625rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: var(--color__white);
+}
+
+.filter-mobile .filter-items__cancel-btn,
+.filter-mobile .filter-items__confirm-btn {
+    width: calc(50% - 0.5rem);
+    height: 2.5rem;
+    max-width: none;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+}
+
+.filter-mobile .filter-items__confirm-btn:hover,
+.filter-mobile .filter-items__confirm-btn:focus,
+.filter-mobile .filter-items__confirm-btn:active {
+    background-color: var(--color__fill-1-a);
+}
+
+.filter-mobile .filter__more-link-wrap {
+    display: none;
+}
+
+.filter-mobile .filter-items {
+    display: flex !important;
+}
+
+.filter-mobile .filter-items:not(:first-child) {
+    border-top: 0;
+    padding-top: 0;
+}
+
+.filter-mobile .filter-items.mt-24 {
+    margin-top: 2rem !important;
+}
+
+.filter-mobile .filter-item.--search {
+    display: none;
+}
+
+.filter-mobile .filter-items__rangeslide-sub-wrap {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.filter-mobile .filter-item__label {
+    font-weight: 600;
+    font-size: 1.25rem;
+}

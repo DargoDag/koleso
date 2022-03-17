@@ -1,0 +1,71 @@
+.catalog-wheel-type__sorting {
+    margin-top: 1.75rem;
+}
+
+.catalog-wheel-type__link {
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.75rem;
+    color: inherit;
+}
+
+.catalog-wheel-type__link:hover,
+.catalog-wheel-type__link:focus,
+.catalog-wheel-type__link:active {
+    opacity: 0.5;
+}
+
+.catalog-wheel-type-line .about-wheels {
+    margin-top: 4.625rem;
+}
+
+.catalog-wheel-type-line .about-wheels::before {
+    display: none;
+}
+
+.catalog-wheel-type .product-carousel .product-item__cover {
+    background-color: transparent;
+}
+
+.catalog-wheel-type .product-carousel .product-types__button span {
+    margin-right: 0.25rem;
+}
+
+@media screen and (max-width: 991px) {
+    .catalog-wheel-type__tabs {
+        display: none;
+    }
+
+    .catalog-wheel-type__list {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding-bottom: 0.25rem;
+    }
+
+    .catalog-wheel-type__link {
+        white-space: nowrap;
+    }
+
+    .catalog-wheel-type .product-carousel .product-types__button span {
+        display: none;
+    }
+
+    .catalog-wheel-type .product-carousel .product-types__button {
+        height: 2.5rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        font-weight: 700;
+    }
+
+    .catalog-wheel-type-line .about-wheels {
+        margin-top: 3rem;
+    }
+
+    .catalog-wheel-top {
+        padding-bottom: 3rem !important;
+    }
+
+    .catalog-wheel-type-line .about-wheels::before {
+        display: block;
+    }
+}

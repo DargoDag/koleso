@@ -1,0 +1,36 @@
+.wheel.--other-slider {
+    position: relative;
+    padding-top: 5rem;
+}
+
+.wheel.--other-slider::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 3rem;
+    right: 3rem;
+    height: 0.1875rem;
+    background-color:var(--color__dark);
+}
+
+.type-carusel.--other-slider::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: calc(-50vw + 4rem);
+    width: calc(100vw - 8rem);
+    height: 0.1875rem;
+    background-color: var(--color__dark);
+}
+
+@media screen and (max-width: 991px) {
+    .wheel.--other-slider {
+        padding-top: 1.875rem;
+    }
+
+    .wheel.--other-slider::before {
+        left: 1rem;
+        right: 1rem;
+    }
+}

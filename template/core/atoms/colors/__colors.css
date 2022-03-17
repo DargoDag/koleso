@@ -1,0 +1,47 @@
+:root {
+    /* main */
+    --color__dark: #232628;
+    --color__dark-rgb: 35, 38, 40;
+    --color__white:     #ffffff;
+    --color__black: #000000;
+    --color__black-rgb: 0, 0, 0;
+
+    /* fill */
+    --color__fill-1: #F52536;
+    --color__fill-2: #F52536;
+    --color__fill-3:    #53EAE0;
+    --color__fill-4: #F5F7F9;
+    --color__fill-1-h: #B81C29;
+    --color__fill-2-h: #B81C29;
+    --color__fill-3-h:  #4AD1C8;
+    --color__fill-4-h: #e4e6e8;
+    --color__fill-1-a: #7A121B;
+    --color__fill-2-a: #7A121B;
+    --color__fill-3-a:  #389E97;
+    --color__fill-4-a: #d0d2d5;
+    --color__fill-5: #172B4D;
+    --color__fill-5-rgb: 23, 43, 77;
+
+    /* border */
+    --color__border: #D8D8D8;
+    --color__border-rgb: 216, 216, 216;
+    --color__border-1: #E9E9E9;
+
+    /* text */
+    --color__text-1:    #000000;
+    --color__text-2:    #7A7A7A;
+    --color__text-3:    #B4B4B4;
+
+    /* gray */
+    --color__gray-1: #F5F5F9;
+    --color__gray-2: #FAFAFC;
+    --color__gray-3: #E6F0F1;
+    --color__gray-4: #EEF0EF;
+    --color__gray-5: #E6E6E6;
+    --color__gray-6: #C4C4C4;
+    --color__gray-7: #9F9F9F;
+
+    /* green */
+    --color__green-1: #44B049;
+    --color__green-2: #01AC50;
+}

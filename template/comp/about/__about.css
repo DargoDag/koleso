@@ -1,0 +1,50 @@
+.about__title.h1 {
+    font-weight: 700;
+}
+
+.about__img-thumb img {
+    width: 100%;
+}
+
+.about__content {
+    max-width: 58rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.about__descr {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+
+@media (max-width: 991px) {
+
+    .about__title.h1 {
+        margin-left: 1rem;
+    }
+
+    .about__img {
+        max-width: 53rem;
+        width: 100%;
+    }
+
+    .about__descr {
+        font-size: 1rem;
+        line-height: 1.75rem;
+    }
+
+    .about__content {
+        margin-top: 24px !important;
+        font-size: 1rem;
+        line-height: 1.75rem;
+    }
+
+    .about__descr:first-child {
+        margin-top: 0;
+    }
+
+    .page-about {
+        padding-bottom: 3.5rem !important;
+    }
+}

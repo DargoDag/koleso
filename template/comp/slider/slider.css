@@ -1,0 +1,41 @@
+.slider-btn {
+    position: static; /* reset swiper default style */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    padding: 0;
+    margin: 0;
+    border: 1px solid var(--color__black);
+    border-radius: 50%;
+    color: var(--color__black);
+    background-color: var(--color__white);
+    cursor: pointer;
+    transition: all ease .24s;
+}
+
+.slider-btn:hover {
+    border-color: var(--color__fill-1);
+    color: var(--color__white);
+    background-color: var(--color__fill-1);
+}
+
+.slider-btn.--prev svg {
+    transform: rotate(180deg);
+}
+
+.slider-btn.--next {
+}
+
+.slider-btn svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 991px) {
+    .slider-btn {
+        display: none;
+    }
+}

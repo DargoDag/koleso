@@ -1,0 +1,71 @@
+.product-items.mount .product-item__cover-mask {
+    height: 15.8125rem;
+}
+
+.product-items.mount .product-item__cover {
+    background-color: transparent;
+}
+
+.product-items.mount .filter__more-link-wrap:before, .product-items.mount .filter__more-link-wrap:after {
+    content: "";
+    border-bottom: 1px solid #D8D8D8;
+    flex: 1;
+}
+
+.product-items.mount .filter__more-link {
+    margin: 0 2.75rem;
+}
+
+.mount-banner .banner__cover img {
+    width: auto;
+    height: auto;
+}
+
+.mount-banner .banner__background {
+    background-image: url("/template/img/banner-decor.png");
+    background-position: 60.5% 100%;
+}
+
+.mount-banner .banner__title {
+    color: var(--color__dark);
+}
+
+.mount-banner .parameter-item__label {
+    color: var(--color__dark);
+    opacity: .7;
+}
+
+.product-items.mount .wheel-cards__item {
+    width: 30.5rem;
+}
+
+.product-items.mount .wheel-cards__title {
+    font-size: 1.375rem;
+}
+
+.product-items.mount .product-related {
+    padding-top: 5.25rem;
+    border: none;
+    position: relative;
+}
+
+.product-items.mount .product-related::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: calc(-50vw + 4rem);
+    width: calc(100vw - 8rem);
+    height: 3px;
+    background-color: var(--color__text-1);
+}
+
+
+.wheel-slider__item .wheel-cards__item {
+    max-width: 35.5rem;
+    width: 100% !important;
+}
+
+@media screen and (max-width:990px) {
+    
+}

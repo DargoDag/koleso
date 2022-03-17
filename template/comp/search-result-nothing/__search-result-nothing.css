@@ -1,0 +1,18 @@
+.search-result-nothing {
+    opacity: 0.24;
+}
+
+.search-result-nothing__icon {
+    display: inline-block;
+    width: 6.5625rem;
+    height: 6.5rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 6.5625rem 6.5rem;
+}
+
+.search-result-nothing__text {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2rem;
+}

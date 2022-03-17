@@ -1,0 +1,321 @@
+.auth__or-label-line {
+    border-bottom: 1px solid var(--color__border);
+}
+
+.auth__or-label-text {
+    opacity: .5;
+}
+
+.auth__form-send-btn {
+    width: 100%;
+}
+
+.show-password {
+    width: 2rem;
+    height: 1.125rem;
+    display: block;
+    position: absolute;
+    right: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    transition: all ease .24s;
+    opacity: 1;
+    background-size: contain;
+    background-position: center;
+}
+
+.show-password:hover {
+    opacity: 0.5;
+}
+
+.is-show-pass .show-password {
+    opacity: 1;
+}
+
+.auth__form-line .big-input__input::placeholder {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    font-weight: 400;
+}
+
+/* modify */
+
+.auth__head {
+    text-align: center;
+}
+
+.auth__form-line .big-input__title {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    color: var(--color__dark);
+    opacity: .7;
+    font-weight: 500;
+}
+
+.auth__title {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+
+.auth__title b {
+    font-weight: 700 !important;
+}
+
+.auth__head .auth__post-title {
+    color: var(--color__dark);
+    font-size: 1rem;
+}
+
+.auth__form-line .big-input__input {
+    background-color: var(--color__fill-4);
+    border-radius: 1.5rem;
+    height: 5rem;
+    border: .125rem solid transparent;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}
+
+.auth__form-line .big-input__title {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.auth__form-line .big-input:focus-within .big-input__input {
+    box-shadow: 0px 0.5rem 2rem rgb(0 0 0 / 8%);
+    border-color: var(--color__dark);
+}
+
+.auth__form-notifications .alert.--state-error {
+    border-radius: 4rem;
+}
+
+.auth__form-send-btn {
+    border-radius: 4rem;
+    font-weight: 600 !important;
+}
+
+.auth__or-btn.auth__login-suid {
+    height: 3rem;
+    border-radius: 4rem;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: rgb(51 51 51 / 6%);
+    color: rgb(51 51 51 / 50%);
+}
+
+.auth__or-btn.auth__login-suid:hover {
+    border-radius: 1.5rem;
+    background-color: var(--color__dark);
+    color: var(--color__white);
+}
+
+.auth__or-btn span.p {
+    font-size: 1rem;
+    line-height: 1.125;
+    font-weight: 600;
+}
+
+.auth__policy .checkbox__trigger {
+    border-radius: 1.5rem;
+    box-shadow: inset 0px 0px 0px 0.1875rem var(--color__dark);
+}
+
+.auth__policy .checkbox__label b {
+    color: var(--color__dark);
+}
+
+.auth__adress-check .checkbox__trigger {
+    border-radius: 1.5rem;
+    box-shadow: inset 0px 0px 0px 0.1875rem var(--color__dark);
+}
+
+.auth__adress-check .checkbox__label b {
+    color: var(--color__dark);
+}
+
+.auth__policy .checkbox input:checked + * > .checkbox__label {
+    color: var(--color__dark);
+}
+
+.auth__policy .checkbox input:checked + * > .checkbox__trigger {
+    background-color: var(--color__dark);
+    box-shadow: inset 0px 0px 0px 0.1875rem var(--color__dark);
+}
+
+.auth__post-title .link:hover {
+    opacity: 1;
+    color: var(--color__fill-1);
+}
+
+.auth__post-title .link {
+    /* color: rgb(51 51 51 / 60%); */
+    color: var(--color__dark);
+}
+
+/*  */
+
+.auth {
+    margin: auto;
+}
+
+.auth.col.--4 {
+    max-width: calc(var(--col-width) * 4 + (var(--col-gutter) * 3) + 1.5rem);
+}
+
+.auth__form-remebmer .checkbox input + * > .checkbox__trigger {
+    border-radius: 100px;
+    box-shadow: inset 0px 0px 0px 0.1875rem var(--color__dark);
+    width: 1.715rem;
+    height: 1.715rem;
+}
+
+.auth__form-remebmer .checkbox input:checked + * > .checkbox__trigger {
+    border-radius: 100px;
+    box-shadow: inset 0px 0px 0px 0.1875rem var(--color__dark);
+    background-position: center;
+    background-size: 65%;
+}
+
+.auth .auth__form-send-btn {
+    background-color: var(--color__dark);
+    height: 5rem;
+}
+
+.auth .auth__form-send-btn:hover {
+    /* background-color: #464646; */
+}
+
+.auth--bg {
+    background-image: url('../../img/--svg__auth-bg.svg'), url('../../img/--svg__auth-bg2.svg');
+    background-position: left top, right bottom;
+    background-size: 25%;
+}
+
+.auth__form-remebmer .checkbox__label b {
+    color: var(--color__dark);
+}
+
+.auth__form-last-password {
+    opacity: 0.4;
+}
+
+.auth__form-last-password:hover {
+    opacity: 1;
+}
+
+.auth .tabs__btns {
+    border-radius: 7rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    background-color: var(--color__fill-4);
+}
+
+.auth .tabs__btn {
+    border-radius: 7rem;
+    width: 50%;
+    text-align: center;
+    padding: 1.125rem 0;
+    cursor: pointer;
+    opacity: 0.4;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+    transition: ease all .24s;
+}
+
+.auth .tabs__btn:hover {
+    background-color: #0000000a;
+    opacity: 1;
+}
+
+.auth .tabs__btn.is-active {
+    background-color: var(--color__white);
+    opacity: 1;
+}
+
+.auth .auth__form-line .big-input__input {
+    border-radius: 7rem;
+
+}
+
+.auth__content {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* */
+
+
+@media screen and (max-width: 991px) {
+
+    .auth__form-last-password {
+        margin-top: .75rem;
+    }
+
+    .auth__post-title br {
+        display: none;
+    }
+
+    .recovery-info__label br {
+        display: none;
+    }
+
+    .recovery-info__label {
+        font-size: 1.25rem;
+        text-align: center;
+        flex: inherit !important;
+        width: 100% !important;
+    }
+
+    .recovery-info__icon {
+        margin: 0 !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .recovery-info {
+        justify-content: center;
+    }
+
+    .auth .auth__form-send-btn {
+        height: 4.5rem;
+    }
+
+    .auth .auth__title {
+        font-size: 2rem;
+    }
+
+    .auth .auth__post-title {
+        margin-top: 0.5rem !important;
+        font-size: 1.166rem;
+    }
+
+    .auth .tabs__btn {
+        font-size: 1rem;
+    }
+
+    .auth {
+        margin-top: 2rem;
+    }
+
+    .auth .checkbox__label {
+        font-size: 1.175rem;
+    }
+
+    .auth__form-last-password {
+        font-size: 1.175rem;
+    }
+
+    .auth--bg {
+        background-image: none;
+    }
+
+    .auth__post-title.--sign-up {
+        padding: 0 2rem;
+    }
+
+    .auth__post-title.--recovery-title {
+        padding: 0;
+    }
+}

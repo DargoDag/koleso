@@ -1,0 +1,76 @@
+.wheel-cards__item.weight {
+    padding: 2rem 2.5rem;
+    background-color: var(--color__fill-4);
+    font-size: 1.25rem;
+}
+
+.wheel-cards__title {
+    max-width: 21rem;
+}
+
+.wheel-cards__title.weight {
+    font-size: 1.25rem;
+    max-width: 21rem;
+}
+
+.wheel-cards__descr{
+    position: absolute;
+    right: 2.25rem;
+    bottom: 1.625rem;
+    opacity: 0.25;
+    font-weight: 800;
+}
+
+.wheel-cards__descr--1 {
+    font-size: 2.125rem;
+    line-height: 3.5rem;
+    vertical-align: text-bottom;
+}
+
+.wheel-cards__descr--2 {
+    font-size: 5rem;
+    line-height: 5.5rem;
+}
+
+.wheel-cards__descr--3 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+
+@media screen and (max-width: 991px) {
+    .wheel-cards__item.weight {
+        flex-direction: column;
+        padding: 1.5rem 1.5rem 1.5rem 2rem;
+    }
+
+    .wheel-cards__descr {
+        position: static;
+        text-align: right;
+    }
+
+    .wheel-cards__title.weight {
+        margin-top: 0;
+        font-size: 1.125rem;
+        font-weight: 600;
+        line-height: 1.5rem;
+    }
+
+    .wheel-cards__descr--1 {
+        font-size: 1.5rem;
+        line-height: 3.5rem;
+    }
+
+    .wheel-cards__descr--2 {
+        font-size: 4rem;
+        line-height: 1;
+    }
+
+    .wheel-cards__descr--3 {
+        font-size: 2rem;
+        line-height: 1;
+    }
+
+    .wheel-cards__back {
+        bottom: 1.5rem;
+    }
+}

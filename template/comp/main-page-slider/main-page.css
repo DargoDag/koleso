@@ -1,0 +1,21 @@
+.main-page .content__wrap {
+    /* margin-top: 3rem; */
+}
+
+.main-page .product-carousel .product-item__cover {
+    background-color: transparent;
+}
+
+.main-page__product-top-wrapper {
+    padding-bottom: 7rem;
+}
+
+@media screen and (max-width: 991px) {
+    .main-page .content__wrap {
+        margin-top: 1rem;
+    }
+
+    .main-page__product-top-wrapper {
+        padding-bottom: 1rem;
+    }
+}

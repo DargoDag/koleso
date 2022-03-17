@@ -1,0 +1,25 @@
+.scope__sort.mount-type {
+    justify-content: flex-end;
+}
+
+.--svg__sort-icon.mount-type {
+    left: 98%;
+    top: 6%;
+}
+
+.wheel-cards__img.--mount-type {
+    width: 14.375rem;
+    height: 10.375rem;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.wheel-cards__item.--mount-type {
+    background-color: #F2F0EC;
+    min-height: 13.25rem;
+}
+
+.mount__pagination {
+    margin-top: 3rem;
+}

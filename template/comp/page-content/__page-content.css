@@ -1,0 +1,23 @@
+.page-content {
+    padding-top: 1rem;
+    padding-bottom: 8rem;
+}
+
+.page-content.--small {
+    padding-bottom: 3.625rem;
+}
+
+@media screen and (max-width: 991px) {
+    .page-content {
+        padding-top: 0.5rem;
+        padding-bottom: 3rem;
+    }
+
+    .page-content.--small {
+        padding-bottom: 3rem;
+    }
+
+    .page-content.--mobile-large {
+        padding-top: 2.5rem;
+    }
+}

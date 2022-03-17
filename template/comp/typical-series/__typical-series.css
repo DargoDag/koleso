@@ -1,0 +1,152 @@
+.typical-series__promo {
+    padding-top: 1.875rem;
+    position: relative;
+}
+
+.typical-series__promo::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 32.6875rem;
+    width: 13.4375rem;
+    height: 5.875rem;
+    background-image: url("/template/dist/img/promo-green-leaf.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 13.4375rem 5.875rem;
+}
+
+.typical-series__promo h2 {
+    margin-top: 1.875rem;
+    font-weight: 700;
+}
+
+.typical-series__promo-text {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}
+
+.typical-series__promo-number {
+    position: absolute;
+    font-size: 30rem;
+    bottom: 0;
+    left: 30%;
+    line-height: 1;
+    font-weight: 800;
+    transform: translateY(4.2rem);
+    opacity: 0.06;
+}
+
+.typical-series__promo-button {
+    margin-top: 5.25rem;
+    border-radius: 3rem;
+}
+
+.typical-series__promo-button.--fill-1:hover,
+.typical-series__promo-button.--fill-1:focus,
+.typical-series__promo-button.--fill-1:active {
+    background-color: var(--color__fill-1-a);
+}
+
+
+@media screen and (max-width: 991px) {
+
+    .typical-series__promo-text {
+        display: none;
+    }
+
+    .typical-series__promo img{
+        width: 100%;
+        max-width: 18rem;
+    }
+
+    .typical-series__promo picture{
+        position: absolute;
+        right: 1rem;
+        top: 30px;
+        width: 18rem;
+        height: 20rem;
+    }
+
+    .typical-series {
+        padding: 0 1.33rem !important;
+    }
+
+    .typical-series__wrap {
+        height: 20rem;
+        overflow: hidden;
+    }
+
+    .typical-series__promo-number {
+        font-size: 16rem;
+        position: absolute;
+        left: -2rem;
+        top: -4rem;
+    }
+
+    .typical-series__promo h2 {
+        margin-top: 0;
+        margin-left: 1rem;
+        font-size: 2.66rem;
+        line-height: 2rem;
+        z-index: 2;
+        position: relative;
+    }
+
+    .typical-series__promo-button {
+        margin-top: 11rem !important;
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+        font-size: 0.75rem;
+        font-weight: 700;
+        line-height: 1rem;
+    }
+
+    .typical-series__promo::after {
+        transform: rotate(-105deg);
+        content: "";
+        display: inline-block;
+        position: absolute;
+        top: 10%;
+        right: -69px;
+        width: 13.4375rem;
+        height: 5.875rem;
+        background-image: url(/template/dist/img/promo-green-leaf.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 8.33rem 4rem;
+    }
+
+    .typical-series__promo::before {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        top: 27%;
+        left: -53px;
+        width: 13.4375rem;
+        height: 10.875rem;
+        background-image: url(/template/dist/img/promo-green-leaf2.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 7rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .typical-series__promo picture{
+        position: absolute;
+        right: -2.5rem;
+        top: 6rem;
+        width: 13.3rem;
+        height: 15.4rem;
+    }
+
+    .typical-series__promo img {
+        max-width: 14rem;
+    }
+}

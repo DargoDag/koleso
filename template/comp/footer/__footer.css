@@ -1,0 +1,621 @@
+.footer-top__checkbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-top__send-btn {
+    height: 3.5rem !important;
+    border-radius: 1rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+}
+
+.footer-top__send-btn:hover {
+    background-color: rgb(255 255 255 / 70%);
+}
+
+.footer-menu__logo-img {
+    width: 100%;
+    height: auto;
+}
+
+.footer-top__input {
+    background-color: #121212;
+    padding: 0 1.5rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    height: 3.5rem;
+    color: #fff;
+    border: 1px solid #ffffff63;
+    border-radius: .875rem;
+}
+
+.payment-item.--svg__mastercard-icon {
+    width: 8.5rem;
+}
+
+.payment-item.--svg__visa-icon {
+    width: 5rem;
+}
+
+.payment-item.--svg__mir-icon {
+    width: 5.5rem;
+}
+
+.footer-menu__sub-items {
+    flex: 1;
+    grid-gap: .125rem 2.5rem;
+}
+
+.footer-top__input:hover {
+    background-color: #484646;
+}
+
+.footer-top__input:hover::placeholder {
+    color: #fff;
+    opacity: 1;
+}
+
+.footer-top__input::placeholder {
+    transition: ease all .24s;
+}
+
+.footer-top__input::placeholder {
+    opacity: .32;
+}
+
+.footer-top__checkbox .checkbox__label {
+    color: #fff !important;
+    opacity: .24;
+    font-weight: 300;
+}
+
+.footer-top__checkbox .checkbox__label-link {
+    color: #fff;
+    font-weight: 500;
+}
+
+.footer-top__checkbox .checkbox__label-link:hover {
+    opacity: 1;
+    color: var(--color__fill-1);
+}
+
+.footer-top__checkbox .checkbox__trigger, .footer-contacts__checkbox .checkbox__trigger, .order-form__checkbox .checkbox__trigger {
+    background-color: transparent !important;
+    top: inherit;
+    width: 1rem;
+    height: 1rem;
+    background-position: center;
+    opacity: .24;
+    box-shadow: 0 0 0 1px #fff !important;
+    transition: ease all .24s;
+}
+
+.footer-top__checkbox-title {
+    font-size: 1.875rem;
+    line-height: 2rem;
+    font-weight: 700;
+    color: rgb(255 255 255 / 64%);
+}
+
+.footer-top__checkbox-title span {
+    color: rgb(255 255 255 / 40%);
+}
+
+.footer-top__top {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 1.5rem;
+    background-color: #fff;
+    border-radius: 0 0 1.5rem 1.5rem;
+}
+
+.footer-top .center-wrap, .footer-menu .center-wrap, .footer-contacts__wrap, .footer-menu__items-wrap, .footer-bottom .center-wrap {
+    gap: 1.5rem;
+}
+
+.footer-contacts .center-wrap {
+    gap: 2rem;
+}
+
+.footer-menu__logo {
+    display: flex;
+}
+
+.footer-menu__logo:hover {
+    opacity: .7;
+}
+
+.footer-menu__copyright {
+    font-weight: 600;
+    color: #fff;
+    opacity: .5;
+}
+
+.footer-menu__policy, .footer-menu__cookie {
+    display: block;
+    opacity: .32;
+    color: #fff;
+}
+
+.footer-menu__items .menu-item {
+    font-weight: 650;
+    margin-top: .5rem;
+    color: rgb(255 255 255 / 70%);
+    display: block;
+}
+
+.footer-menu__logo-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-menu__items .menu-item:first-child {
+    margin-top: 0;
+}
+
+.footer-top__checkbox .checkbox input:checked + * > .checkbox__trigger, .footer-contacts__checkbox input:checked + * > .checkbox__trigger {
+    background-image: url("data:image/svg+xml,%3Csvg width='20' height='19' viewBox='0 0 20 19' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M18 5.33329L7.33333 16L2 10.6666' stroke='white' stroke-width='2'/%3E%3C/svg%3E%0A") !important;
+    box-shadow: none !important;
+    box-shadow: 0 0 0 0 #fff !important;
+}
+
+.footer-top__send-btn:active {
+    background-color: rgb(255 255 255 / 30%) !important;
+    color: #fff;
+}
+
+.footer-menu__items .menu-item:hover {
+    color: #fff;
+}
+
+.footer-menu__sub-items .sub-item {
+    color: rgb(255 255 255 / 40%);
+    font-weight: 400;
+    margin-top: .5rem;
+    opacity: 1;
+}
+
+.footer-menu__sub-items .sub-item:hover {
+    color: #fff;
+}
+
+.footer-menu__sub-items .sub-item:first-child {
+    margin-top: 0;
+}
+
+.footer-menu__sub-items .sub-item:nth-child(2) {
+    margin-top: 0;
+}
+
+.footer-contacts__subsribe-label {
+    opacity: .8;
+    color: #fff;
+}
+
+.footer-contacts__subscribe-input {
+    background-color: transparent;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+    transition: ease all .24s;
+    color: #fff;
+    border-bottom: 1px solid rgb(255 255 255 / 30%) !important;
+    border: 1px solid transparent;
+    padding: 0 3rem 0 0;
+}
+
+.footer-contacts__input-wrap {
+    position: relative;
+}
+
+.footer-contacts__checkbox {
+    display: block;
+}
+
+.footer-contacts__checkbox-link {
+    color: #fff;
+    font-weight: 500;
+}
+
+.footer-contacts__checkbox-link:hover {
+    color: var(--color__fill-1);
+}
+
+.footer-contacts__subscribe-icon {
+    width: 1.5rem;
+    height: 1rem;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: ease all .24s;
+    padding: 0;
+    background-color: transparent;
+    border-radius: 0;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer-contacts__subscribe-icon:active {
+    transform: translateY(-50%) scale(.9);
+}
+
+.footer-contacts__subscribe-input::placeholder {
+    transition: ease all .24s;
+    color: rgb(255 255 255 / 40%);
+}
+
+.footer-menu__policy:hover, .footer-menu__cookie:hover {
+    opacity: 1;
+}
+
+.footer-menu .center-wrap {
+    border-bottom: 1px dashed rgb(255 255 255 / 10%);
+}
+
+.footer-contacts__input-wrap:hover .footer-contacts__subscribe-icon {
+    right: .5rem;
+}
+
+.footer-contacts__time-mode {
+    opacity: .4;
+    font-weight: 400;
+}
+
+.footer-contacts__tel {
+    color: #fff;
+    font-weight: 650;
+    display: block;
+}
+
+.footer-contacts__email {
+    color: rgb(255 255 255 / 60%);
+    display: block;
+}
+
+.footer-contacts__tel:hover {
+    opacity: .7;
+}
+
+.footer-contacts__email:hover {
+    color: #fff;
+}
+
+.footer-contacts__messengers-items .messenger-item {
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 100%;
+    background-color: rgb(255 255 255 / 10%) !important;
+    margin-right: 1rem;
+    background-size: 2.125rem auto;
+    border: 1px solid #fff;
+    background-color: transparent !important;
+    opacity: .2;
+}
+
+.footer {
+    background-color: var(--color__dark);
+}
+
+.footer-contacts__messengers-label {
+    opacity: .32;
+    font-weight: 400;
+}
+
+.footer-contacts__messengers-items .messenger-item:hover {
+    opacity: 1;
+}
+
+.footer-contacts__subscribe-input:focus {
+    border-bottom: 2px solid var(--color__white) !important;
+    padding: 0 3rem 0 1rem;
+}
+
+.footer-bottom__info {
+}
+
+.payment-item {
+    height: 1.5rem;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 1.25rem;
+    opacity: .32;
+}
+
+.payment-item.--svg__mastercard {
+    width: 8.25rem;
+}
+
+.payment-item:last-child {
+    margin-right: 0;
+}
+
+.footer-contacts__checkbox .checkbox__label {
+    color: #fff !important;
+    opacity: .32;
+    font-weight: 300;
+}
+
+.footer-contacts__checkbox .checkbox__label-link {
+    color: #fff;
+    font-weight: 500;
+}
+
+.footer-contacts__checkbox .checkbox__label-link:hover {
+    color: var(--color__fill-1);
+}
+
+.popup__name-input:focus-within {
+    background-color: transparent !important;
+}
+
+.footer-contacts__address {
+    color: #fff;
+    opacity: .4;
+}
+
+.footer-contacts__messengers-items .messenger-item.--svg__fb-icon {
+    background-image: url("data:image/svg+xml;charset=utf8, %3Csvg width='8' height='15' viewBox='0 0 8 15' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M5.62713 2.93936C5.87734 2.93936 7.16458 2.93936 7.16458 2.93936V0.608387L5.04686 0.599976C2.69491 0.599976 2.16042 2.34006 2.16042 3.45035V5.00434H0.800781V7.40471H2.16042C2.16042 10.4874 2.16042 14.2 2.16042 14.2H5.02025C5.02025 14.2 5.02025 10.4517 5.02025 7.40471H6.95057L7.20078 5.00434H5.02025V3.59334C5.02025 3.06343 5.37692 2.93936 5.62713 2.93936Z' fill='white'/%3E%3C/svg%3E");
+    background-size: 1rem auto;
+}
+
+.footer-contacts__messengers-items .messenger-item.--svg__insta-icon {
+    background-image: url("data:image/svg+xml;charset=utf8, %3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M11.1501 3.90604C11.1501 4.41104 11.5604 4.82046 12.0665 4.82046C12.5727 4.82046 12.983 4.41104 12.983 3.90604C12.983 3.40101 12.5727 2.9916 12.0665 2.9916C11.5604 2.9916 11.1501 3.40101 11.1501 3.90604ZM5.44401 7.97378C5.44401 6.57091 6.58379 5.43369 7.98975 5.43369C9.3957 5.43369 10.5355 6.57091 10.5355 7.97378C10.5355 9.37662 9.3957 10.5138 7.98975 10.5138C6.58379 10.5138 5.44401 9.37662 5.44401 7.97378ZM7.99026 11.8869C5.82434 11.8869 4.06852 10.1349 4.06852 7.97374C4.06852 5.8126 5.82434 4.06066 7.99026 4.06066C10.1562 4.06066 11.912 5.8126 11.912 7.97374C11.912 10.1349 10.1562 11.8869 7.99026 11.8869ZM14.1902 1.81054C13.8829 1.50322 13.5903 1.31289 13.1804 1.15359C12.8709 1.0333 12.4059 0.890248 11.5496 0.851176C10.6235 0.80893 10.3458 0.799988 8.00077 0.799988C5.65576 0.799988 5.37799 0.80893 4.4519 0.851176C3.59564 0.890248 3.13062 1.0333 2.82116 1.15359C2.4112 1.31289 2.11866 1.50322 1.81134 1.81054C1.50402 2.11786 1.31369 2.41044 1.15435 2.82036C1.03409 3.12983 0.891041 3.59488 0.851969 4.45114C0.809724 5.3772 0.800781 5.65497 0.800781 7.99997C0.800781 10.345 0.809724 10.6227 0.851969 11.5488C0.891041 12.4051 1.03409 12.8701 1.15435 13.1796C1.31369 13.5895 1.50402 13.8821 1.81134 14.1894C2.11866 14.4968 2.4112 14.6871 2.82116 14.8464C3.13062 14.9666 3.59564 15.1097 4.45193 15.1488C5.37787 15.191 5.6556 15.2 8.00077 15.2C10.3459 15.2 10.6237 15.191 11.5496 15.1488C12.4059 15.1097 12.8709 14.9666 13.1804 14.8464C13.5903 14.6871 13.8829 14.4968 14.1902 14.1894C14.4975 13.8821 14.6879 13.5895 14.8472 13.1796C14.9674 12.8701 15.1105 12.4051 15.1496 11.5488C15.1918 10.6227 15.2008 10.345 15.2008 7.99997C15.2008 5.65497 15.1918 5.3772 15.1496 4.45114C15.1105 3.59488 14.9674 3.12983 14.8472 2.82036C14.6879 2.41044 14.4975 2.11786 14.1902 1.81054Z' fill='white'/%3E%3C/svg%3E");
+    background-size: 2.125rem auto;
+}
+
+.footer-contacts__messengers-items .messenger-item.--svg__youtube-icon {
+    background-image: url("data:image/svg+xml;charset=utf8, %3Csvg width='16' height='12' viewBox='0 0 16 12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M6.34816 8.06539L6.34766 3.59126L10.6707 5.83604L6.34816 8.06539ZM15.84 2.81598C15.84 2.81598 15.6835 1.71873 15.204 1.23553C14.5955 0.601064 13.9135 0.598078 13.601 0.561254C11.362 0.400024 8.0035 0.400024 8.0035 0.400024H7.9965C7.9965 0.400024 4.638 0.400024 2.399 0.561254C2.086 0.598078 1.4045 0.601064 0.7955 1.23553C0.316 1.71873 0.16 2.81598 0.16 2.81598C0.16 2.81598 0 4.10483 0 5.39317V6.6014C0 7.89025 0.16 9.17859 0.16 9.17859C0.16 9.17859 0.316 10.2759 0.7955 10.759C1.4045 11.3935 2.204 11.3736 2.56 11.4398C3.84 11.5622 8 11.6 8 11.6C8 11.6 11.362 11.595 13.601 11.4338C13.9135 11.3965 14.5955 11.3935 15.204 10.759C15.6835 10.2759 15.84 9.17859 15.84 9.17859C15.84 9.17859 16 7.89025 16 6.6014V5.39317C16 4.10483 15.84 2.81598 15.84 2.81598Z' fill='white'/%3E%3C/svg%3E");
+    background-size: 2.125rem auto;
+}
+
+.footer-contacts {
+    border-bottom: .25rem solid #fff;
+}
+
+.footer-contacts__messengers-title {
+    display: none;
+}
+
+
+@media (max-width: 991px) {
+
+    .footer-top__form-wrap {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .footer-top__form-wrap > * {
+        max-width: 100% !important;
+        margin: 0 !important;
+    }
+
+    .footer-top__checkbox {
+        max-width: 100% !important;
+    }
+
+    .footer-menu {
+        display: none;
+    }
+
+    .footer-menu__copyright-wrap {
+        display: flex;
+        align-items: baseline;
+        gap: 1.5rem;
+    }
+
+    .footer-menu__logo-wrap {
+        max-width: 100% !important;
+        gap: 1.5rem;
+    }
+
+    .footer-menu__copyright-wrap > * {
+        margin: 0 !important;
+    }
+
+    .footer-bottom {
+        padding: 2rem 0 7rem 0 !important;
+    }
+
+    .footer-top__form {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .footer-top__form > * {
+        margin: 0 !important;
+        max-width: 100% !important;
+    }
+
+    .footer-contacts__wrap {
+        max-width: 100% !important;
+        justify-content: space-between;
+    }
+
+    .footer-bottom__payment {
+        max-width: 100% !important;
+        justify-content: space-between;
+    }
+
+    .footer-bottom__info, .footer-contacts__subscribe {
+        max-width: 100% !important;
+    }
+
+    .footer-contacts__messengers-wrap {
+        max-width: fit-content !important;
+    }
+
+    .footer-contacts {
+        margin-top: 0;
+        padding-bottom: 0 !important;
+        border: 0;
+    }
+
+    .footer-contacts__subscribe-input {
+        height: 4.375rem;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .footer-contacts__subsribe-label {
+        font-size: 1.5rem;
+    }
+
+    .footer-contacts__checkbox .checkbox__trigger {
+        display: none;
+    }
+
+    .footer-contacts__checkbox .checkbox__label {
+        margin-left: 0 !important;
+        font-weight: 400;
+    }
+
+    .footer-contacts__links-wrap {
+        margin-top: 2rem;
+    }
+
+    .footer-contacts__tel {
+        font-size: 2rem;
+        line-height: 3.5rem;
+    }
+
+    .footer-contacts__email {
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+
+    .footer-contacts__address {
+        margin-top: 4px !important;
+        font-size: 0.875rem;
+        line-height: 1.5rem;
+    }
+
+    .footer-contacts__messengers-title {
+        display: inline-block;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        color: var(--color__white);
+        opacity: 0.5;
+    }
+
+    .footer-contacts__messengers-wrap {
+        margin-top: 1rem;
+    }
+
+    .footer-contacts__messengers-items .messenger-item {
+        width: 4.125rem;
+        height: 4.125rem;
+    }
+
+    .footer-menu__copyright {
+        font-size: 0.9375rem;
+        font-weight: 500;
+        line-height: 1.75rem;
+    }
+
+    .footer-menu__copyright-wrap {
+        gap: 0.25rem;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+    }
+
+    .footer-bottom__payment {
+        margin-top: 2.125rem;
+    }
+}
+
+
+@media (max-width: 640px) {
+
+    .footer-top__top .center-wrap {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .footer-top {
+        padding-top: 4rem !important;
+    }
+
+    .footer-top__form-wrap {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .footer-top__input-wrap {
+        margin-top: 0 !important;
+    }
+
+    .footer-top__send-btn {
+        margin-top: 0 !important;
+    }
+
+    .footer-menu__copyright-wrap {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-menu__copyright-wrap > * {
+        margin-top: 0 !important;
+    }
+
+    .footer-menu__items-wrap {
+        margin-top: 2rem;
+    }
+
+    .footer-menu__items-wrap {
+        flex-direction: column;
+        gap: 1.5rem;
+        margin-top: 2rem;
+        align-items: flex-start;
+    }
+
+    .footer-menu .center-wrap {
+        padding-bottom: 2rem !important;
+    }
+
+    .footer-contacts .center-wrap {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: flex-start;
+    }
+
+    .footer-contacts__wrap {
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: flex-start;
+    }
+
+    .footer-contacts__messengers-wrap {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: flex-start;
+    }
+
+    .footer-bottom .center-wrap {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .footer-bottom__payment {
+        gap: 1rem;
+    }
+
+    .footer-bottom__payment .payment-item {
+        flex: 1;
+        margin-right: 0 !important;
+    }
+
+    .footer-bottom__payment .payment-item.--svg__mastercard {
+        flex: none;
+    }
+
+}

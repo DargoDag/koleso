@@ -1,0 +1,28 @@
+.mobile-whatsapp {
+    position: fixed;
+    z-index: 10;
+    right: 0.75rem;
+    bottom: 4.625rem;
+    width: 4.375rem;
+    height: 4.375rem;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color__green-1);
+    border-radius: 100%;
+}
+
+.mobile-whatsapp__icon {
+    display: block;
+    width: 1.875rem;
+    height: 1.875rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+@media screen and (max-width: 991px) {
+    .mobile-whatsapp {
+        display: flex;
+    }
+}

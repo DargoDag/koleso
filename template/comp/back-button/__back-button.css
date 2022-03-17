@@ -1,0 +1,36 @@
+.back-button {
+    display: none;
+    margin-right: 0.75rem;
+}
+
+.back-button .btn.--dark{
+    width: 1.6875rem;
+    height: 1.6875rem;
+    padding: 0;
+    border-radius: 50%;
+}
+
+.back-button__icon {
+    display: inline-block;
+    width: 0.5rem;
+    height: 0.8125rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 0.5rem 0.8125rem;
+}
+
+@media screen and (max-width: 991px) {
+    .back-button {
+        display: inline-block;
+    }
+
+    .back-button-wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    .back-button-wrapper .content__title {
+        font-size: 1.5rem;
+        line-height: 1.125;
+    }
+}

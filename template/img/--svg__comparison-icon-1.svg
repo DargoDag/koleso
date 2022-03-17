@@ -1,0 +1,10 @@
+<svg width="108" height="56" viewBox="0 0 108 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle opacity="0.3" cx="54.0013" cy="27.9999" r="20.8333" stroke="#232628"/>
+<circle opacity="0.3" cx="54.0013" cy="28" r="8.83333" stroke="#232628"/>
+<circle opacity="0.3" cx="54.0013" cy="27.9998" r="4.83333" stroke="#232628"/>
+<circle cx="54" cy="27.9999" r="27.5" stroke="#232628"/>
+<line x1="71.506" y1="9.67698" x2="62.0779" y2="19.1051" stroke="#F52536" stroke-width="2"/>
+<line y1="-1" x2="17.6785" y2="-1" transform="matrix(0.533308 -0.533301 -0.533308 -0.533301 35.1445 44.9703)" stroke="#F52536" stroke-width="2"/>
+<path d="M73.8 8.20081H64.3719L73.8 17.6289V8.20081Z" fill="#F52536"/>
+<path d="M34.2023 47.7989V38.3707L43.6304 47.7989H34.2023Z" fill="#F52536"/>
+</svg>

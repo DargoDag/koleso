@@ -1,0 +1,65 @@
+@media screen and (max-width: 991px) {
+    .banner.--sphere {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+
+    .banner.--sphere .center-wrap {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .banner.--sphere .banner__wrap {
+        min-height: 15rem;
+        padding-top: 1.5rem !important;
+        padding-bottom: 1.5rem !important;
+        padding-left: 1.5rem !important;
+    }
+
+    .banner.--sphere .banner__title {
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+    }
+
+    .banner.--sphere .banner__consult-btn {
+        align-self: flex-start;
+        height: 2.75rem;
+        width: auto;
+        max-width: none;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+        font-size: 0.75rem;
+        line-height: 1rem;
+        font-weight: 700 !important;
+    }
+
+    .banner.--sphere .banner__background-wrap {
+        width: auto;
+        left: 1rem;
+        right: 1rem;
+    }
+
+    .banner.--sphere .banner__background-wrap::before,
+    .banner.--sphere .banner__background-wrap::after {
+        display: none;
+    }
+
+    .banner.--sphere .banner__cover-wrap {
+        width: 100%;
+    }
+
+    .banner.--sphere .banner__cover-wrap::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(179.39deg, #2B2320 0.47%, rgba(81, 64, 56, 0) 126.49%);
+    }
+
+    .banner.--sphere .banner__cover-before,
+    .banner.--sphere .banner__cover-after {
+        display: none;
+    }
+}

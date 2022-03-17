@@ -1,0 +1,228 @@
+.product-items.materials .product-item__cover-mask {
+    height: 15.8125rem;
+}
+
+.product-items.materials .product-item__cover {
+    background-color: transparent;
+}
+
+.product-items.materials .filter__more-link-wrap:before, .product-items.materials .filter__more-link-wrap:after {
+    content: "";
+    border-bottom: 1px solid #D8D8D8;
+    flex: 1;
+}
+
+.product-items.materials .filter__more-link {
+    margin: 0 2.75rem;
+}
+
+.materials-banner .banner__cover img {
+    width: auto;
+    height: auto;
+}
+
+.materials-banner .banner__title {
+    color: var(--color__dark);
+}
+
+.materials-banner .parameter-item__label {
+    color: var(--color__dark);
+    opacity: .7;
+}
+
+
+.materials-banner .banner__cover {
+    position: absolute;
+}
+
+.materials-banner .banner__cover-wrap {
+    flex-direction: row;
+}
+
+.materials-banner img {
+    position: absolute;
+    z-index: 2;
+    right: 13%;
+    bottom: -12%;
+}
+
+.related-materials {
+    width: 100%;
+}
+
+.related-materials__wrap {
+    margin: auto;
+    height: 27.5rem;
+    flex-direction: column;
+    padding: 3.125rem 0;
+    position: relative;
+}
+
+.related-materials__item {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    max-width: 22rem;
+}
+
+.related-materials__btn {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    background-color: var(--color__dark);
+    background-position: center;
+    background-size: 1.5rem;
+    padding: 0;
+    z-index: 2;
+    position: relative;
+}
+
+.related-materials__btn:hover {
+    background-color: var(--color__fill-1);
+}
+
+.related-materials__cover {
+    width: 100%;
+}
+
+.related-materials__cover img {
+    width: 69%;
+    margin: auto;
+    position: absolute;
+    bottom: -6.125rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.related-materials__title {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    z-index: 2;
+}
+
+.typical-weight__pagination {
+    margin-top: 3rem;
+}
+
+@media screen and (max-width: 991px) {
+
+    .banner__background-wrap::before {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        top: 27%;
+        left: -45px;
+        width: 13.4375rem;
+        height: 10.875rem;
+        background-image: url(/template/dist/img/promo-green-leaf1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 7rem;
+        z-index: 2;
+    }
+
+    .banner__background-wrap::after {
+        transform: rotate(-105deg);
+        content: "";
+        display: inline-block;
+        position: absolute;
+        top: 10%;
+        right: -68px;
+        width: 13.4375rem;
+        height: 5.875rem;
+        background-image: url(/template/dist/img/promo-green-leaf.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 6.33rem 3rem;
+        z-index: 2;
+    }
+
+    .banner__background-wrap {
+        overflow: hidden;
+    }
+
+    .materials-banner .banner__title {
+        font-size: 1.66rem;
+    }
+
+    .banner__wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .banner__title {
+        line-height: 2rem;
+        max-width: 31rem;
+    }
+
+    .materials-banner .banner__cover img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .materials-banner .banner__cover {
+        position: absolute;
+        width: 320px;
+        height: 220px;
+        top: 0;
+        right: 0;
+    }
+
+    .banner__consult-btn {
+        max-height: 3.416rem;
+    }
+
+    .related-materials__title {
+        font-weight: 600;
+    }
+
+    .related-materials__wrap {
+        padding: 1.33rem 0;
+    }
+
+    .related-materials__btn {
+        display: none;
+    }
+
+
+    .related-materials__wrap {
+        max-height: 20rem;
+    }
+
+    .series-card__more-btn {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    /* .product-related__wrap .swiper-wrapper {
+        max-height: 13.83rem;
+    }
+
+    .related-materials__wrap {
+        max-height: 15rem;
+        height: 100%;
+    } */
+}
+
+@media screen and (max-width:640px) {
+
+    .materials-banner .banner__cover {
+        position: absolute;
+        width: 190px;
+        height: 160px;
+        top: 51px;
+        right: 0;
+    }
+
+    .related-materials__cover img {
+        width: 18rem;
+        bottom: -3.4rem;
+    }
+
+    .related-materials__wrap {
+        max-height: 13.83rem;
+    }
+}

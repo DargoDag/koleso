@@ -1,0 +1,75 @@
+.pagination__arrow:hover svg,
+.pagination__arrow:focus svg,
+.pagination__arrow:active svg {
+    opacity: 1;
+}
+
+.pagination__arrow svg {
+    display: block;
+    height: 0.75rem;
+    opacity: 0.32;
+}
+
+.pagination.--new .pagination__loadmore {
+    padding: 2.75rem 14.5625rem;
+    font-size: 1.375rem;
+    font-weight: 500;
+    line-height: 2rem;
+    border-radius: 3rem;
+}
+
+.pagination.--new .pagination__numbs {
+    margin-left: 2.75rem;
+    margin-right: 2.75rem;
+}
+
+.pagination.--new .pagination__numb {
+    height: 3rem;
+    width: 3rem;
+    padding: 0;
+    color: inherit;
+}
+
+.pagination.--new .pagination__numb.is-active {
+    border-radius: 50%;
+    color: var(--color__white);
+    background-color: var(--color__dark);
+}
+
+@media screen and (max-width: 991px) {
+    .pagination.--new .pagination__loadmore {
+        width: 100%;
+        padding: 0;
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+
+    .pagination.--new .pagination__loadmore svg {
+        width: 0.8125rem;
+        height: 0.9375rem;
+    }
+
+    .pagination.--new .pagination__numb span {
+        font-size: 0.875rem;
+        line-height: 1;
+        font-weight: 600;
+    }
+
+    .pagination.--new .pagination__numbs {
+        margin-left: 1.625rem;
+        margin-right: 1.625rem;
+    }
+
+    .pagination.--new .pagination__numb {
+        width: 1.75rem;
+        height: 1.75rem;
+    }
+
+    .pagination.--new .pagination__arrow + .pagination__arrow {
+        margin-left: 0.875rem !important;
+    }
+
+    .pagination.--new .pagination__arrow.--goto-next {
+        margin-right: 0 !important;
+    }
+}

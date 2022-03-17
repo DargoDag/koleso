@@ -1,0 +1,235 @@
+.dealer__wrap {
+    width: 100%;
+}
+
+.dealer__title.h1 {
+    font-weight: 700;
+}
+
+.dealer-info {
+    max-width: 48rem;
+}
+
+.dealer-info__title {
+    opacity: 0.32;
+}
+
+.dealer-info__text {
+    margin: 0;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    opacity: 0.7;
+}
+
+.dealer-info__text.--small {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.dealer-info__text--link {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.dealer-info__link {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+
+.leftovers {
+    text-align: center;
+    background-color: var(--color__fill-4);
+}
+
+.leftovers__text {
+    margin: 0;
+    opacity: 0.7;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.leftovers__btn-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.leftovers__btn {
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.75rem;
+    border-radius: 3.5rem;
+    border: 3px solid var(--color__dark);
+    background-color: var(--color__dark);
+    color: var(--color__white);
+    transition: 0.3s all ease;
+}
+
+.leftovers__btn + .leftovers__btn {
+    margin-right: 0.5rem;
+}
+
+.leftovers__btn:hover {
+    background-color: transparent;
+    color: var(--color__dark);
+}
+
+.leftovers__btn--no-fill {
+    background-color: transparent;
+    color: var(--color__dark);
+}
+
+.leftovers__btn--no-fill:hover {
+    background-color: var(--color__dark);
+    color: var(--color__white);
+}
+
+.dealer-send {
+    flex-wrap: wrap;
+    max-width: 38.5rem;
+    width: 100%;
+}
+
+.dealer-send__title {
+    opacity: 0.32;
+}
+
+.big-input:focus-within .big-input__input {
+    box-shadow: inset 0 0 0 0.25rem var(--color__dark);
+    background-color: white;
+}
+
+.dealer-send__input input {
+    font-weight: 500;
+    color: var(--color__dark);
+    opacity: 1;
+}
+
+.dealer-send__input input::placeholder {
+    opacity: 0.5;
+}
+
+.dealer-send__input--textarea.input.--fill {
+    padding: 1rem 2.5rem 0 !important;
+    resize: none;
+    font-weight: 500;
+    border-radius: 2rem;
+    color: var(--color__dark);
+    opacity: 0.5;
+}
+
+.dealer-send__input--textarea.input.--fill::placeholder {
+    color: inherit;
+    opacity: 1;
+}
+
+.dealer-send__checkbox .checkbox__label {
+    max-width: 12.5rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    color: var(--color__dark);
+}
+
+.dealer-send__checkbox .checkbox__label b {
+    color: var(--color__dark);
+}
+
+.checkbox input:checked+*>.checkbox__label {
+    color: var(--color__dark);
+}
+
+.checkbox input:checked+*>.checkbox__trigger {
+    background-color: var(--color__dark);
+}
+
+.dealer-send__checkbox .checkbox__trigger {
+    box-shadow: inset 0px 0px 0px 0.1875rem var(--color__dark);
+    border-radius: 1.5rem;
+}
+
+.dealer-send__btn {
+    border-radius: 3.5rem;
+    color: var(--color__white);
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    padding: 1.375rem 4.5rem;
+    height: 4.5rem;
+}
+
+.input__wrap {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 991px) {
+    .dealer__title {
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+
+    .dealer-info__title {
+        margin-top: 0.5rem !important;
+        font-size: 1.25rem;
+        line-height: 3rem;
+    }
+
+    .dealer-info__text {
+        margin-top: 0 !important;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+    }
+
+    .dealer-info__text--link {
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+    }
+
+    .dealer-info__text.--small {
+        margin-top: 1rem !important;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+    }
+
+    .dealer-info__link span {
+        font-size: 0.875rem;
+    }
+
+    .dealer-info__leftovers {
+        margin-top: 1.5rem !important;
+        margin-left: -1rem;
+        margin-right: -1rem;
+        padding: 1.5rem 1rem !important;
+    }
+
+    .leftovers__btn-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .leftovers__text {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .leftovers__btn {
+        width: 100%;
+    }
+
+    .leftovers__btn + .leftovers__btn {
+        margin-top: 0.75rem;
+        margin-right: 0;
+    }
+
+    .dealer-send__btn {
+        width: 100%;
+    }
+
+    .dealer-send__checkbox {
+        margin-top: 1rem !important;
+        order: 1;
+    }
+
+    .dealer-page {
+        padding-bottom: 48px !important;
+    }
+}
